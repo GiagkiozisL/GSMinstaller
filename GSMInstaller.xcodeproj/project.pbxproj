@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4500F64E198D61A30041B7EE /* GITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4500F64D198D61A30041B7EE /* GITableView.m */; };
+		45835712198CEF260065F990 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45835711198CEF260065F990 /* Foundation.framework */; };
+		45835714198CEF260065F990 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45835713198CEF260065F990 /* CoreGraphics.framework */; };
+		45835716198CEF260065F990 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45835715198CEF260065F990 /* UIKit.framework */; };
+		4583571C198CEF260065F990 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4583571A198CEF260065F990 /* InfoPlist.strings */; };
+		4583571E198CEF260065F990 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4583571D198CEF260065F990 /* main.m */; };
+		45835722198CEF260065F990 /* GIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45835721198CEF260065F990 /* GIAppDelegate.m */; };
+		45835725198CEF260065F990 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45835723198CEF260065F990 /* Main_iPhone.storyboard */; };
+		45835728198CEF260065F990 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45835726198CEF260065F990 /* Main_iPad.storyboard */; };
+		4583572B198CEF260065F990 /* GIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4583572A198CEF260065F990 /* GIViewController.m */; };
+		4583572D198CEF260065F990 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4583572C198CEF260065F990 /* Images.xcassets */; };
+		45835734198CEF260065F990 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45835733198CEF260065F990 /* XCTest.framework */; };
+		45835735198CEF260065F990 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45835711198CEF260065F990 /* Foundation.framework */; };
+		45835736198CEF260065F990 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45835715198CEF260065F990 /* UIKit.framework */; };
+		4583573E198CEF260065F990 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4583573C198CEF260065F990 /* InfoPlist.strings */; };
+		45835740198CEF260065F990 /* GSMInstallerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4583573F198CEF260065F990 /* GSMInstallerTests.m */; };
+		4583574D198D535E0065F990 /* wind.png in Resources */ = {isa = PBXBuildFile; fileRef = 4583574A198D535E0065F990 /* wind.png */; };
+		4583574E198D535E0065F990 /* cosmote.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4583574B198D535E0065F990 /* cosmote.jpg */; };
+		4583574F198D535E0065F990 /* Vodafone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4583574C198D535E0065F990 /* Vodafone-icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45835737198CEF260065F990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45835706198CEF260065F990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4583570D198CEF260065F990;
+			remoteInfo = GSMInstaller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4500F64C198D61A30041B7EE /* GITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITableView.h; sourceTree = "<group>"; };
+		4500F64D198D61A30041B7EE /* GITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITableView.m; sourceTree = "<group>"; };
+		4583570E198CEF260065F990 /* GSMInstaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSMInstaller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45835711198CEF260065F990 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45835713198CEF260065F990 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45835715198CEF260065F990 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45835719198CEF260065F990 /* GSMInstaller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GSMInstaller-Info.plist"; sourceTree = "<group>"; };
+		4583571B198CEF260065F990 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4583571D198CEF260065F990 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4583571F198CEF260065F990 /* GSMInstaller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GSMInstaller-Prefix.pch"; sourceTree = "<group>"; };
+		45835720198CEF260065F990 /* GIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIAppDelegate.h; sourceTree = "<group>"; };
+		45835721198CEF260065F990 /* GIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIAppDelegate.m; sourceTree = "<group>"; };
+		45835724198CEF260065F990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		45835727198CEF260065F990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		45835729198CEF260065F990 /* GIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIViewController.h; sourceTree = "<group>"; };
+		4583572A198CEF260065F990 /* GIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIViewController.m; sourceTree = "<group>"; };
+		4583572C198CEF260065F990 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45835732198CEF260065F990 /* GSMInstallerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSMInstallerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45835733198CEF260065F990 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4583573B198CEF260065F990 /* GSMInstallerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GSMInstallerTests-Info.plist"; sourceTree = "<group>"; };
+		4583573D198CEF260065F990 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4583573F198CEF260065F990 /* GSMInstallerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSMInstallerTests.m; sourceTree = "<group>"; };
+		4583574A198D535E0065F990 /* wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wind.png; sourceTree = "<group>"; };
+		4583574B198D535E0065F990 /* cosmote.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cosmote.jpg; sourceTree = "<group>"; };
+		4583574C198D535E0065F990 /* Vodafone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vodafone-icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4583570B198CEF260065F990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45835714198CEF260065F990 /* CoreGraphics.framework in Frameworks */,
+				45835716198CEF260065F990 /* UIKit.framework in Frameworks */,
+				45835712198CEF260065F990 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4583572F198CEF260065F990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45835734198CEF260065F990 /* XCTest.framework in Frameworks */,
+				45835736198CEF260065F990 /* UIKit.framework in Frameworks */,
+				45835735198CEF260065F990 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45835705198CEF260065F990 = {
+			isa = PBXGroup;
+			children = (
+				45835749198D53550065F990 /* Images */,
+				45835717198CEF260065F990 /* GSMInstaller */,
+				45835739198CEF260065F990 /* GSMInstallerTests */,
+				45835710198CEF260065F990 /* Frameworks */,
+				4583570F198CEF260065F990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4583570F198CEF260065F990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4583570E198CEF260065F990 /* GSMInstaller.app */,
+				45835732198CEF260065F990 /* GSMInstallerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45835710198CEF260065F990 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45835711198CEF260065F990 /* Foundation.framework */,
+				45835713198CEF260065F990 /* CoreGraphics.framework */,
+				45835715198CEF260065F990 /* UIKit.framework */,
+				45835733198CEF260065F990 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45835717198CEF260065F990 /* GSMInstaller */ = {
+			isa = PBXGroup;
+			children = (
+				45835720198CEF260065F990 /* GIAppDelegate.h */,
+				45835721198CEF260065F990 /* GIAppDelegate.m */,
+				45835723198CEF260065F990 /* Main_iPhone.storyboard */,
+				45835726198CEF260065F990 /* Main_iPad.storyboard */,
+				45835729198CEF260065F990 /* GIViewController.h */,
+				4583572A198CEF260065F990 /* GIViewController.m */,
+				4583572C198CEF260065F990 /* Images.xcassets */,
+				45835718198CEF260065F990 /* Supporting Files */,
+				4500F64C198D61A30041B7EE /* GITableView.h */,
+				4500F64D198D61A30041B7EE /* GITableView.m */,
+			);
+			path = GSMInstaller;
+			sourceTree = "<group>";
+		};
+		45835718198CEF260065F990 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45835719198CEF260065F990 /* GSMInstaller-Info.plist */,
+				4583571A198CEF260065F990 /* InfoPlist.strings */,
+				4583571D198CEF260065F990 /* main.m */,
+				4583571F198CEF260065F990 /* GSMInstaller-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45835739198CEF260065F990 /* GSMInstallerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4583573F198CEF260065F990 /* GSMInstallerTests.m */,
+				4583573A198CEF260065F990 /* Supporting Files */,
+			);
+			path = GSMInstallerTests;
+			sourceTree = "<group>";
+		};
+		4583573A198CEF260065F990 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4583573B198CEF260065F990 /* GSMInstallerTests-Info.plist */,
+				4583573C198CEF260065F990 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45835749198D53550065F990 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4583574A198D535E0065F990 /* wind.png */,
+				4583574B198D535E0065F990 /* cosmote.jpg */,
+				4583574C198D535E0065F990 /* Vodafone-icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4583570D198CEF260065F990 /* GSMInstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45835743198CEF260065F990 /* Build configuration list for PBXNativeTarget "GSMInstaller" */;
+			buildPhases = (
+				4583570A198CEF260065F990 /* Sources */,
+				4583570B198CEF260065F990 /* Frameworks */,
+				4583570C198CEF260065F990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSMInstaller;
+			productName = GSMInstaller;
+			productReference = 4583570E198CEF260065F990 /* GSMInstaller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45835731198CEF260065F990 /* GSMInstallerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45835746198CEF260065F990 /* Build configuration list for PBXNativeTarget "GSMInstallerTests" */;
+			buildPhases = (
+				4583572E198CEF260065F990 /* Sources */,
+				4583572F198CEF260065F990 /* Frameworks */,
+				45835730198CEF260065F990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45835738198CEF260065F990 /* PBXTargetDependency */,
+			);
+			name = GSMInstallerTests;
+			productName = GSMInstallerTests;
+			productReference = 45835732198CEF260065F990 /* GSMInstallerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45835706198CEF260065F990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = FlowerApps;
+				TargetAttributes = {
+					45835731198CEF260065F990 = {
+						TestTargetID = 4583570D198CEF260065F990;
+					};
+				};
+			};
+			buildConfigurationList = 45835709198CEF260065F990 /* Build configuration list for PBXProject "GSMInstaller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45835705198CEF260065F990;
+			productRefGroup = 4583570F198CEF260065F990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4583570D198CEF260065F990 /* GSMInstaller */,
+				45835731198CEF260065F990 /* GSMInstallerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4583570C198CEF260065F990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45835728198CEF260065F990 /* Main_iPad.storyboard in Resources */,
+				4583574D198D535E0065F990 /* wind.png in Resources */,
+				4583574E198D535E0065F990 /* cosmote.jpg in Resources */,
+				4583572D198CEF260065F990 /* Images.xcassets in Resources */,
+				4583574F198D535E0065F990 /* Vodafone-icon.png in Resources */,
+				45835725198CEF260065F990 /* Main_iPhone.storyboard in Resources */,
+				4583571C198CEF260065F990 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45835730198CEF260065F990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4583573E198CEF260065F990 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4583570A198CEF260065F990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45835722198CEF260065F990 /* GIAppDelegate.m in Sources */,
+				4583572B198CEF260065F990 /* GIViewController.m in Sources */,
+				4583571E198CEF260065F990 /* main.m in Sources */,
+				4500F64E198D61A30041B7EE /* GITableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4583572E198CEF260065F990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45835740198CEF260065F990 /* GSMInstallerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45835738198CEF260065F990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4583570D198CEF260065F990 /* GSMInstaller */;
+			targetProxy = 45835737198CEF260065F990 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4583571A198CEF260065F990 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4583571B198CEF260065F990 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45835723198CEF260065F990 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45835724198CEF260065F990 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		45835726198CEF260065F990 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45835727198CEF260065F990 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4583573C198CEF260065F990 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4583573D198CEF260065F990 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45835741198CEF260065F990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45835742198CEF260065F990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45835744198CEF260065F990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSMInstaller/GSMInstaller-Prefix.pch";
+				INFOPLIST_FILE = "GSMInstaller/GSMInstaller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45835745198CEF260065F990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSMInstaller/GSMInstaller-Prefix.pch";
+				INFOPLIST_FILE = "GSMInstaller/GSMInstaller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		45835747198CEF260065F990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GSMInstaller.app/GSMInstaller";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSMInstaller/GSMInstaller-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GSMInstallerTests/GSMInstallerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		45835748198CEF260065F990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GSMInstaller.app/GSMInstaller";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GSMInstaller/GSMInstaller-Prefix.pch";
+				INFOPLIST_FILE = "GSMInstallerTests/GSMInstallerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45835709198CEF260065F990 /* Build configuration list for PBXProject "GSMInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45835741198CEF260065F990 /* Debug */,
+				45835742198CEF260065F990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45835743198CEF260065F990 /* Build configuration list for PBXNativeTarget "GSMInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45835744198CEF260065F990 /* Debug */,
+				45835745198CEF260065F990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45835746198CEF260065F990 /* Build configuration list for PBXNativeTarget "GSMInstallerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45835747198CEF260065F990 /* Debug */,
+				45835748198CEF260065F990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45835706198CEF260065F990 /* Project object */;
+}
